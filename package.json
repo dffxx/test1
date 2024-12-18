@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@apollo/subgraph": "^2.9.3",
+    "@nestjs/cli": "^10.4.9",
+    "@nuxt/ui": "^2.20.0",
+    "bootstrap": "^5.3.3",
+    "joi": "^17.13.3",
+    "nuxt": "^3.14.1592",
+    "nuxt-start": "^2.18.1",
+    "vue": "latest",
+    "vue-router": "latest",
+    "yup": "^1.5.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "nuxt-zod-i18n": "^1.11.2"
+  }
+}
